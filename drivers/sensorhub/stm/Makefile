@@ -9,6 +9,6 @@ obj-$(CONFIG_SENSORS_SYSFS)		+= sensors_core.o
 
 obj-$(CONFIG_IIO)			+= ssp_iio_ring.o ssp_iio_trigger.o
 
-obj-$(CONFIG_SENSORS_SSP_FACTORY)	+= factory/
+obj-y += factory/
 
 obj-$(CONFIG_SENSORS_SSP_SENSORHUB)	+= ssp_sensorhub.o
